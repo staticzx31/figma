@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 50px;
+}
+.lupa{
+    margin-top: 14px;
+    margin-right: 8px;
+}
+.h1{
+    color: #BF2604;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+body{
+    background-color: #454545;
+}
+.btnlaranja{
+    width: 60px;
+	height: 20px;
+	border-radius: 40px;
+    background-color: #D97914;
+	margin: auto;
+	text-align: center;
+    font-size: 10px;
+    color: white;
+    line-height: 20px;
+}
+svg{
+    width: 15px;;
+    fill: #BF2604;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #454545;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cadastro{
+    color: white;
+}
+
+.registration-form {
+    padding: 20px;
+}
+
+.registration-form h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.registration-form label {
+    font-weight: bold;
+    color: #fff;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.registration-form a {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #D97914;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+.button{
+    background-color: #D97914;
+    border: 0;
+    color: white;
+}
+.registration-form .button:hover {
+    background-color: #BF2604;
+}
+
+
+
